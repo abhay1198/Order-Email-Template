@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package     Abhay/OrderEmailTemplate 
+ * @version     1.0.0
+ * @author      Abhay
+ * @copyright   Copyright © 2021. All Rights Reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_order_save_after">
+        <observer name="sales_order_save_after_event" instance="Abhay\OrderEmailTemplate\Observer\OrderSaveAfter"/>
+    </event>
+</config>

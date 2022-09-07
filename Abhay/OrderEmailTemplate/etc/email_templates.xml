@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package     Abhay/OrderEmailTemplate 
+ * @version     1.0.0
+ * @author      Abhay
+ * @copyright   Copyright © 2021. All Rights Reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="sales_email_order_order_status" label="Order Status Change Email Template" file="statusChange.html" type="html" module="Abhay_OrderEmailTemplate" area="frontend"/>
+</config>

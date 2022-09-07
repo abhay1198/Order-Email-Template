@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package     Abhay/OrderEmailTemplate 
+ * @version     1.0.0
+ * @author      Abhay
+ * @copyright   Copyright © 2021. All Rights Reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sales_email>
+            <order>
+                <order_status>sales_email_order_order_status</order_status>
+            </order>
+        </sales_email>    
+    </default>
+</config>

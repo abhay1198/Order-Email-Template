@@ -1,0 +1,23 @@
+<!--
+/**
+ * @package     Abhay/OrderEmailTemplate 
+ * @version     1.0.0
+ * @author      Abhay
+ * @copyright   Copyright © 2021. All Rights Reserved.
+ */
+-->
+{{template config_path="design/email/header_template"}}
+<!--@subject Order Status Notification  @-->
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "%customer_name," customer_name=$myvar2}}</p>
+            <p>
+                {{trans "I would like to inform you that your order %order_id has been updated."}}
+            </p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}
